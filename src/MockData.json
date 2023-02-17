@@ -1,0 +1,102 @@
+{
+    "language":[
+        {
+            "name": "ไทย",
+            "code": "th"
+        },
+        {
+            "name": "English",
+            "code": "en"
+        }
+    ],
+    "header": {
+        "logo":"/logo-company.png"
+    },
+    "banner": [
+        {
+            "img": "/assets/banner2.png"
+        },
+        {
+            "img": "/assets/banner2.png"
+        },
+        {
+            "img": "/assets/banner2.png"
+        }
+    ],
+    "aricle": [
+        {
+            "name": "Margin of Safety กลยุทธ์การลงทุนอย่างปลอดภัย หลักการลงทุนของเบนจามิน เกรแฮม",
+            "detailcom":"ตอบคำถามที่ว่า คุณมีความจำเป็น พร้อมเป็นเจ้าของหรือยัง เช่น เพื่อหน้าที่การงาน อาชีพ หรือการเดินทาง ความสะดวกสบาย เพราะการซื้อรถนอกจากค่ารถแล้ว ยังมีค่าน้ำมัน ค่าบำรุงรักษา ค่าประกันภัย ซึ่งเป็นค่าใช้จ่ายในระยะยาว",
+            "img": "/assets/images/img-article-mock.png"
+        },
+        {
+            "name": "จับจังหวะการลงทุนเป็นก็สร้างเงินล้านได้ง่ายๆใกล้แค่เอื้อม",
+            "detailcom":"ตอบคำถามที่ว่า คุณมีความจำเป็น พร้อมเป็นเจ้าของหรือยัง เช่น เพื่อหน้าที่การงาน อาชีพ หรือการเดินทาง ความสะดวกสบาย เพราะการซื้อรถนอกจากค่ารถแล้ว ยังมีค่าน้ำมัน ค่าบำรุงรักษา ค่าประกันภัย ซึ่งเป็นค่าใช้จ่ายในระยะยาว",
+            "img": "/assets/images/img-article-2-mock.png"
+        },
+        {
+            "name": "Margin of Safety กลยุทธ์การลงทุนอย่างปลอดภัย Margin of Safety",
+            "detailcom":"ตอบคำถามที่ว่า คุณมีความจำเป็น พร้อมเป็นเจ้าของหรือยัง เช่น เพื่อหน้าที่การงาน อาชีพ หรือการเดินทาง ความสะดวกสบาย เพราะการซื้อรถนอกจากค่ารถแล้ว ยังมีค่าน้ำมัน ค่าบำรุงรักษา ค่าประกันภัย ซึ่งเป็นค่าใช้จ่ายในระยะยาว",
+            "img": "/assets/images/img-article-3-mock.png"
+        }
+    ],
+    "news": [
+        {
+            "text": "1 บริษัทหลักทรัพย์ ภัทร จำหัด (มหาจำกัด) จัดงานสัมมนา The Year Ahead 2019 'Opportunity Harnessed'",
+            "img": "/assets/images/img-news-mock.png"
+        },
+        {
+            "text": "OMG",
+            "img": "/assets/images/img-news-mock.png"
+        },
+        {
+            "text": "RED FLAVOR",
+            "img": "/assets/images/img-news-mock.png"
+        },
+        {
+            "text": "DM",
+            "img": "/assets/images/img-news-mock.png"
+        }
+    ],
+    "kpp": [
+        {
+            "text": "KKP Focus ช่วงที่ 1 กูรู... โต๊ะกลม",
+            "img": "/assets/images/clip-1@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 1 ย่อประเด็นโลก โยกประเด็นร้อน",
+            "img": "/assets/images/clip-2@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 2 กูรู... โต๊ะกลม",
+            "img": "/assets/images/clip-3@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 1 กูรู... โต๊ะกลม",
+            "img": "/assets/images/clip-1@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 1 ย่อประเด็นโลก โยกประเด็นร้อน",
+            "img": "/assets/images/clip-2@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 2 กูรู... โต๊ะกลม",
+            "img": "/assets/images/clip-3@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },{
+            "text": "KKP Focus ช่วงที่ 1 กูรู... โต๊ะกลม",
+            "img": "/assets/images/clip-1@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        },
+        {
+            "text": "KKP Focus ช่วงที่ 1 ย่อประเด็นโลก โยกประเด็นร้อน",
+            "img": "/assets/images/clip-2@3x.png",
+            "link": "https://www.youtube.com/embed/DC8_U6bccNQ"
+        }
+    ] 
+}

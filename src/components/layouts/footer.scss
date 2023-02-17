@@ -1,0 +1,188 @@
+a:hover {
+  color: #fff;
+}
+.top_footer {
+  background-image: linear-gradient(to bottom, #6f6eb2 3%, #352c64 106%);
+  width: 100%;
+}
+.box_contact {
+  margin: 3.88vw 7.321vw 0px;
+  .box_1 {
+    padding-right: 6.442vw;
+    .adress {
+      max-width: 22.548vw;
+    }
+  }
+
+  .box_2 {
+    padding-right: 6.442vw;
+  }
+
+  .box_3 {
+    .box_mb {
+      margin-bottom: 1.903vw;
+    }
+    .icon {
+      margin-right: 1.977vw;
+      .icon_phone {
+        transform: rotate(90deg);
+      }
+    }
+    .contact_logo {
+      img {
+        margin-right: 10px;
+        max-height: 3.221vw;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+.ant-divider-horizontal {
+  background: #fff;
+  opacity: 0.15;
+}
+
+.footer_text {
+  font-family: Tahoma;
+  font-size: 1.171vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #fff;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo {
+  margin-bottom: 2.416vw;
+  max-width: 15.081vw;
+  svg {
+    object-fit: contain;
+
+    aspect-ratio: 206/55;
+  }
+}
+
+.copany_name {
+  font-family: Kanit;
+  font-size: 1.611vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 0.732vw;
+  text-align: start;
+}
+
+.text_head {
+  font-family: Quark;
+  font-size: 1.757vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: start;
+  color: #fff;
+  margin-bottom: 1.611vw;
+}
+
+.box_licence {
+  .box_mb {
+    margin-bottom: 1.757vw;
+  }
+  a,
+  span {
+    opacity: 0.5;
+    font-family: Tahoma;
+    font-size: 0.952vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #cfcbeb;
+  }
+  .ant-divider-vertical {
+    background: #fff;
+    opacity: 0.5;
+  }
+}
+
+.bottom_footer {
+  margin: 1.757vw 7.174vw 3.075vw;
+  img {
+    max-height: 2.782vw;
+    object-fit: contain;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ant-divider-horizontal {
+    margin: 12px 0;
+  }
+  .box_contact {
+    .box_1 {
+      margin-top: 15px;
+    }
+
+    .box_3 {
+      margin-top: 15px;
+      .contact_logo {
+        img {
+          margin-right: 5px;
+          max-height: 4.221vw;
+        }
+      }
+    }
+  }
+
+  .footer_text {
+    font-size: 2.171vw;
+  }
+
+  .footer_logo {
+    width: 15.081vw;
+    img {
+      object-fit: contain;
+      aspect-ratio: 206/55;
+    }
+  }
+
+  .copany_name {
+    font-size: 2.611vw;
+  }
+
+  .text_head {
+    font-size: 2.757vw;
+  }
+
+  .box_licence {
+    .box_mb {
+        margin-bottom: 12px;
+    }
+    a,
+    span {
+      font-size: 1.952vw;
+    }
+  }
+
+  .bottom_footer {
+    margin: 1.757vw 7.174vw 3.075vw;
+    .ant-col {
+        padding: 15px;
+    }
+    img {
+      max-height: 4.782vw;
+      object-fit: contain;
+      margin: auto;
+    }
+  }
+}

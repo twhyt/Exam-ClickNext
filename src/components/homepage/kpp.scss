@@ -1,0 +1,343 @@
+.kpp_wrapper {
+  margin: 3.148vw 7.174vw 2.928vw;
+}
+
+.head_title {
+  margin-bottom: 5.271vw;
+  div {
+    width: 3.807vw;
+    height: 3px;
+    background: linear-gradient(to right, #e9eaef -18%, #b9b9c3 122%);
+    margin-right: 1.318vw;
+  }
+  span {
+    font-family: Kanit;
+    font-size: 2.343vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #594f74;
+  }
+  span:last-child {
+    font-family: Kanit;
+    font-size: 1.318vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #84848f;
+    margin-top: 0.732vw;
+    margin-left: 2.416vw;
+  }
+}
+
+.box_chanel {
+  margin: 0 3.734vw;
+  span {
+    font-family: Kanit;
+    font-size: 1.757vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #84848f;
+  }
+  .active {
+    font-family: Kanit;
+    font-size: 1.757vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #594f74;
+  }
+  .ant-divider-vertical {
+    border-color: #adacb9;
+    height: 1.5em;
+    margin: 0 2.416vw;
+  }
+}
+.box_vdo {
+  margin: 2.123vw 3.734vw 5.051vw;
+  .shadow_vdo {
+    display: flex;
+    width: fit-content;
+    box-shadow: 0.732vw 0.732vw 1.098vw 0.366vw rgb(0 0 0 / 30%);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 720/415;
+  }
+  .detail_vdo {
+    text-align: start;
+    .ant-row {
+      margin: 0px 0.439vw;
+    }
+    .head {
+      font-family: Kanit;
+      font-size: 3.075vw;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #594f74;
+      margin-top: 4.685vw;
+      margin-bottom: 1.025vw;
+    }
+    .detail {
+      font-family: Kanit;
+      font-size: 1.464vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      color: #84848f;
+      margin-bottom: 1.464vw;
+    }
+  }
+  .vdo_divider {
+    background: linear-gradient(
+      to right,
+      #d0cfd8 -3%,
+      #e9eaef 55%,
+      #b9b9c3 111%
+    );
+    width: 100%;
+    height: 3px;
+  }
+}
+
+.linkall-btn {
+  width: 2.05vw;
+  height: 2.05vw;
+  opacity: 1;
+  border: solid 1px #d8d9df;
+  background-color: transparent;
+  color: #d8d9df;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-left: 0.439vw;
+  &:hover {
+    color: white;
+    background-color: #d8d9df;
+  }
+  .arrow {
+    width: 0.952vw;
+    height: 0.952vw;
+    svg {
+      width: 100%;
+      height: 100%;
+      font-weight: bold;
+    }
+  }
+}
+
+.list_kpp {
+  margin-top: 1.464vw;
+  margin-bottom: 7.028vw;
+  .left {
+    padding-right: 1.025vw;
+    span {
+      font-family: Kanit;
+      font-size: 1.757vw;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #594f74;
+      display: flex;
+      margin-top: 1.757vw;
+      text-align: start;
+    }
+  }
+  .center {
+    padding-left: 0.512vw;
+    padding-right: 0.512vw;
+    span {
+      font-family: Kanit;
+      font-size: 1.757vw;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #594f74;
+      display: flex;
+      margin-top: 1.757vw;
+      text-align: start;
+    }
+  }
+  .rigth {
+    padding-left: 1.025vw;
+    span {
+      font-family: Kanit;
+      font-size: 1.757vw;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #594f74;
+      display: flex;
+      margin-top: 1.757vw;
+      text-align: start;
+    }
+  }
+  //   Custom Dot
+  .slick-dots-bottom {
+    bottom: -2vw;
+    li {
+      width: 0.805vw;
+      height: 0.805vw;
+      background-color: transparent;
+      border: solid 1px #adadb9;
+      border-radius: 100%;
+      button {
+        height: 100%;
+        width: 100%;
+        opacity: 0 !important;
+      }
+    }
+    .slick-active {
+      width: 0.805vw !important;
+      height: 0.805vw;
+      background-color: #626099;
+      border-radius: 100%;
+      border: solid 1px #626099;
+    }
+    .slick-dots li button {
+      background: transparent;
+      border: solid 1px #adadb9;
+    }
+  }
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .head_title {
+    span {
+      font-size: 4.343vw;
+    }
+    span:last-child {
+      font-size: 2.318vw;
+      word-wrap: break-word;
+      text-align: start;
+    }
+  }
+
+  .box_chanel {
+    span {
+      font-size: 2.757vw;
+    }
+    .active {
+      font-size: 2.757vw;
+    }
+  }
+  .box_vdo {
+    .detail_vdo {
+      margin-top: 4vw;
+      .head {
+        font-family: Kanit;
+        font-size: 6.075vw;
+        margin-top: 3.025vw;
+        margin-bottom: 2.025vw;
+        line-height: 1;
+      }
+      .detail {
+        font-size: 2.464vw;
+        margin-bottom: 3.025vw;
+      }
+    }
+    .vdo_divider {
+      background: linear-gradient(
+        to right,
+        #d0cfd8 -3%,
+        #e9eaef 55%,
+        #b9b9c3 111%
+      );
+      width: 100%;
+      height: 3px;
+    }
+  }
+
+  .linkall-btn {
+    width: 2.952vw;
+    height: 2.952vw;
+    .arrow {
+      width: 1.952vw;
+      height: 1.952vw;
+    }
+  }
+
+  .read_box {
+    margin-bottom: 2.051vw;
+  }
+
+  .text_all {
+    font-family: Tahoma;
+    font-size: 1.171vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #84848f;
+    @media screen and (max-width: 767px) {
+      font-size: 2vw;
+    }
+  }
+
+  .list_kpp {
+    .left {
+      font-size: 2.757vw;
+    }
+    .center {
+      font-size: 2.757vw;
+    }
+    .rigth {
+      font-size: 2.757vw;
+    }
+    //   Custom Dot
+    .slick-dots-bottom {
+      bottom: -4vw;
+      li {
+        width: 1.805vw;
+        height: 1.805vw;
+      }
+      .slick-active {
+        width: 1.805vw !important;
+        height: 1.805vw;
+      }
+    }
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

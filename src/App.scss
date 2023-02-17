@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.slide-btn {
+  width: 4.758vw;
+  height: 4.758vw;
+  opacity: 0.86;
+  box-shadow: 0.146vw 0.22vw 0.952vw 0 rgba(0, 0, 0, 0.48);
+  border: solid 0.146vw #fff;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  position: absolute;
+  top: 21.23vw;
+  margin: auto 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  &:hover {
+    color: #201f19;
+    background-color: #fff;
+  }
+}
+
+.slide-btn.prev {
+  left: 2.489vw;
+}
+
+.slide-btn.next {
+  right: 2.489vw;
+}
+
+.banner_img {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1366/581;
+}
+
+.arrow {
+  width: 2.196vw;
+  height: 2.196vw;
+  svg {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+  }
+}
